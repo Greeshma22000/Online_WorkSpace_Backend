@@ -4,7 +4,11 @@
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "jest",
+    "seed": "node scripts/seed.js",
+    "socket:server": "node socket/simpleServer.js",
+    "socket:client": "node socket/simpleClient.js"
   },
   "keywords": [],
   "author": "",
