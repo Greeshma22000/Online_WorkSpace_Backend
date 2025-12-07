@@ -50,7 +50,7 @@ app.get('/api/health', (req, res) => {
 
 // Root endpoint
 app.get('/', (req, res) => {
-  res.json({ ok: true, service: 'Remote Work Collaboration Backend' });
+  res.json({ ok: true, service: 'Online Workspace Backend' });
 });
 
 // Error handling middleware

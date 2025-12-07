@@ -10,7 +10,12 @@
     "socket:server": "node socket/simpleServer.js",
     "socket:client": "node socket/simpleClient.js"
   },
-  "keywords": [],
+  "keywords": [
+    "collaboration",
+    "real-time",
+    "websocket",
+    "webrtc"
+  ],
   "author": "",
   "license": "ISC",
   "description": "",
